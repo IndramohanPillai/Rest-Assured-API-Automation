@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApiCallerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-12-17T06:46:27" hostname="ACER" time="9.518">
+  <properties/>
+  <testcase name="executeRequest_noExtraPathRequest_shouldReturnResponse()" classname="ApiCallerTest" time="8.953"/>
+  <testcase name="executeRequest_checkJsonResponse_shouldReturnAsObject()" classname="ApiCallerTest" time="0.562"/>
+  <system-out><![CDATA[Request URI:	http://localhost:8089/test
+Body:			<none>
+HTTP/1.1 200 OK
+{"status": 1}
+Request URI:	http://localhost:8089/test
+Body:			<none>
+HTTP/1.1 200 OK
+{"status": 1}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
